@@ -3,6 +3,9 @@
   background-color: $colorMain;
   color: $colorText;
   box-shadow: 0px 0px 0.8em $colorSecoundary;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 
   &-logo {
     width: 2em;
@@ -19,7 +22,17 @@
     &:hover {
       padding-bottom: Calc(1em - 4px);
       border-bottom: 4px solid darkseagreen;
+    }
+  }
+
+  a {
+    padding: 1em 0;
+    text-decoration: none;
+    color: $colorText;
+
+    &:hover {
       color: darkseagreen;
+
     }
   }
 }

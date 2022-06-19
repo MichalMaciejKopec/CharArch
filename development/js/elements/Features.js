@@ -3,7 +3,7 @@ import React from "react";
 const Features = () => {
 
     return (
-        <div className="features dflexC flexCol w100">
+        <div className="features dflexC flexCol w100" id="features">
             <div className="dflexC flexCol">
                 <h2>Now</h2>
                 <p>Archive allows you to save, edit and preview your characters for D&D 5th edition</p>
