@@ -3,7 +3,7 @@ import React from "react";
 const Nav = ({isLoged}) => {
 
     return (
-        <div className="nav dflexSB">
+        <div className="nav dflexSB w100">
             <h1 className="nav-logo">LPH</h1>
             <ul className="nav-list dflexSB">
                 <li>Main</li>

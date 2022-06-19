@@ -1,11 +1,16 @@
 @import "./partials/reset.scss";
+@import "./partials/colors";
+@import "./partials/mixin";
+@import "./partials/baseClasses";
 
 @import "./fontawesome/fontawesome";
 @import "./fontawesome/regular";
 @import "./fontawesome/solid";
 @import "./fontawesome/brands";
 
-@import "./partials/colors";
-@import "./partials/baseClasses";
-
 @import "./elements/nav";
+@import "./elements/baner";
+@import "./elements/features";
+@import "./elements/example";
+@import "./elements/footer";
+

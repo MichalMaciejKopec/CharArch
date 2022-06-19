@@ -1,0 +1,14 @@
+.features {
+  @include containersMarginPadding;
+
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 1rem;
+
+  }
+}

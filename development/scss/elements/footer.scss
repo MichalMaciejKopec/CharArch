@@ -1,0 +1,10 @@
+.footer {
+  padding: 1rem 2rem;
+  background-color: $colorMain;
+  color: $colorText;
+  box-shadow: 0px 0px 0.8em $colorSecoundary;
+  p {
+    margin: 3px 0;
+    font-size: 0.8em;
+  }
+}

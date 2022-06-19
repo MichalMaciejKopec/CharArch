@@ -1,0 +1,19 @@
+.baner {
+  @include containersMarginPadding;
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1em;
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    background-color: $colorMain;
+    color: $colorText;
+
+  }
+}
