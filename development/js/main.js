@@ -1,5 +1,6 @@
 import React, {Component, useState} from "react";
 import ReactDOM from "react-dom";
+import {BrowserRouter, Routes, Route,} from "react-router-dom";
 
 import Nav from "./elements/Nav";
 import Baner from "./elements/Baner"
@@ -16,13 +17,17 @@ const Main = () => {
         else setIsLoged(false);
     }
     return (
-        <div className="dflexC flexCol ">
-            <Nav isLoged={isLoged}/>
-            <Baner/>
-            <Features/>
-            <Example/>
-            <Footer/>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<div className="dflexC flexCol hero">
+                    <Nav isLoged={isLoged}/>
+                    <Baner/>
+                    <Features/>
+                    <Example/>
+                    <Footer/>
+                </div>}/>
+            </Routes>
+        </BrowserRouter>
     )
 }
 
