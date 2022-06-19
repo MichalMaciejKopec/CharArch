@@ -1,3 +1,11 @@
-h1{
-  color: red;
-}
+@import "./partials/reset.scss";
+
+@import "./fontawesome/fontawesome";
+@import "./fontawesome/regular";
+@import "./fontawesome/solid";
+@import "./fontawesome/brands";
+
+@import "./partials/colors";
+@import "./partials/baseClasses";
+
+@import "./elements/nav";

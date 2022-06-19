@@ -1,0 +1,19 @@
+.hiden {
+  display: none;
+}
+
+.dflexC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dflexSB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexRow{
+  flex-direction: row;
+}
