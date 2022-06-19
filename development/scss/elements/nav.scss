@@ -1,0 +1,25 @@
+.nav {
+  padding: 0 2rem;
+  background-color: $colorMain;
+  color: $colorText;
+  box-shadow: 0px 0px 0.8em $colorSecoundary;
+
+  &-logo {
+    width: 2em;
+    height: 2em;
+  }
+
+  &-list {
+    gap: 1em;
+  }
+
+  li {
+    padding: 1em;
+
+    &:hover {
+      padding-bottom: Calc(1em - 4px);
+      border-bottom: 4px solid darkseagreen;
+      color: darkseagreen;
+    }
+  }
+}
