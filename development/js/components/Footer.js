@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer dflexSB w100" id="footer">
             <div className="dflexC flexCol">
             <p>Do you have questions or suggestions?</p>
-            <p>Get in touch with us: email@exapmle.com</p>
+            <p>Get in touch with us: <a href="mailto: michalkopec8@gmail.com">email@exapmle.com</a></p>
             </div>
             <p>Logo</p>
         </div>

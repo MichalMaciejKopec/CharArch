@@ -1,5 +1,6 @@
 @import "./partials/reset.scss";
 @import "./partials/colors";
+@import "./partials/variables";
 @import "./partials/mixin";
 @import "./partials/baseClasses";
 
@@ -13,7 +14,8 @@
 @import "./elements/features";
 @import "./elements/example";
 @import "./elements/footer";
+@import "./elements/registration";
 
 .hero{
-  margin-top:50px;
+  margin-top:70px;
 }

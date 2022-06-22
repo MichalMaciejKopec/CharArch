@@ -1,0 +1,35 @@
+.registration {
+  height: calc(100vh - 2 * $FootNavHeight);
+
+  .border{
+    border: 2px solid $colorMain;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px gray;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    form {
+
+      div {
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 250px;
+
+        label{
+          flex-grow: 1;
+          text-align: center;
+        }
+      }
+
+      button {
+        margin-top: 5px;
+      }
+    }
+  }
+}
