@@ -1,4 +1,4 @@
-.registration {
+.smallForm {
   height: calc(100vh - 2 * $FootNavHeight);
 
   .border{
@@ -25,6 +25,10 @@
           flex-grow: 1;
           text-align: center;
         }
+      }
+
+      p{
+        color: indianred;
       }
 
       button {

@@ -1,0 +1,32 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+
+  &-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: calc($FootNavHeight / 2 + 0.8125em);
+    background-color: $colorMain;
+    border-radius: 5px;
+    z-index: 1;
+
+    a {
+      padding: 20px;
+      text-decoration: none;
+      display: block;
+
+      &:hover {
+        background-color: $colorHover;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  &:hover {
+    .dropdown-content {
+      display: block;
+    }
+  }
+}

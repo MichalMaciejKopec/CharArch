@@ -4,6 +4,11 @@
       "id": 1,
       "login": "admin",
       "password": "admin"
+    },
+    {
+      "login": "test",
+      "password": "lubieplacki",
+      "id": 2
     }
   ]
 }
