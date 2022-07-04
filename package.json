@@ -16,6 +16,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
+    "react-hook-form": "^7.33.1",
     "react-router-dom": "^6.3.0",
     "sass": "^1.42.1",
     "webpack": "^4.39.2",

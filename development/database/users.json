@@ -9,6 +9,11 @@
       "login": "test",
       "password": "lubieplacki",
       "id": 2
+    },
+    {
+      "login": "asdas",
+      "password": "admasdasdsain",
+      "id": 3
     }
   ]
 }

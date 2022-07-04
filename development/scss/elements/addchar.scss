@@ -1,0 +1,47 @@
+.addchar {
+  h1 {
+    font-size: 2rem;
+    margin: 20px;
+  }
+
+  form {
+    margin: 20px;
+
+    div {
+      label {
+        margin: 5px;
+
+        input {
+          &[type=number] {
+            width: 70px;
+          }
+        }
+
+      }
+    }
+
+    input{
+      &[type=submit] {
+        margin: 10px;
+        background-color: $colorMain;
+        color: $colorText;
+      }
+    }
+
+    .base-stats{
+      margin-top: 2rem;
+      input {
+        &[type=number] {
+          width: 35px;
+
+        }
+      }
+      .sum-score{
+        width: 1rem;
+      }
+      .ability-scores{
+        margin-right: 10px ;
+      }
+    }
+  }
+}
